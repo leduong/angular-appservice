@@ -1,0 +1,31 @@
+{
+	"name": "angular-appservice",
+	"version": "0.0.1",
+	"authors": [
+		"Le Duong <me@leduong.com>"
+	],
+	"readme": "FIX: No README data found!",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/leduong/angularjs-appservice.git"
+	},
+
+	"dependencies": {
+		"grunt": "~0.4.2",
+		"grunt-cli": "^0.1.13",
+		"grunt-contrib-jshint": "~0.7.2",
+		"grunt-contrib-uglify": "~0.2.7",
+		"grunt-contrib-clean": "~0.5.0",
+		"load-grunt-tasks": "~0.2.0",
+		"time-grunt": "0.2.3"
+	},
+
+	"devDependencies": {},
+	"engines": {
+		"node": "0.10.x",
+		"npm": "*"
+	},
+	"scripts": {
+		"postinstall": "grunt build"
+	}
+}

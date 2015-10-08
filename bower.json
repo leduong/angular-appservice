@@ -1,0 +1,24 @@
+{
+  "name": "angular-appservice",
+  "version": "0.0.1",
+  "authors": [
+    "Le Duong <me@leduong.com>"
+  ],
+  "description": "AngularJS AppService Storage",
+  "main": "angular-appservice.js",
+  "keywords": [
+    "AppService",
+    "localStorage",
+    "Cookie Storage",
+    "AngularJS"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.leduong.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
